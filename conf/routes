@@ -4,7 +4,7 @@
 
 # An example controller showing a sample home page
 GET     /                            controllers.HomeController.index
-GET     /chatSocket                  controllers.HomeControllers.chatSocket
+GET     /chatSocket                  controllers.HomeController.chatSocket
 
 # Map static resources from the /public folder to the /assets URL path
 
