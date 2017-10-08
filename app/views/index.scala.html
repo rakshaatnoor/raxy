@@ -19,8 +19,8 @@
         >
             <md-card class="message-card"
                      ng-style ="message.sender=='BOT' ?
-               {'background-color': '#050005 ', 'color': '#f9f7f9 '}:
-               {'background-color': '#f72e3c '}"
+               {'background-color': '#42f4eb'}:
+               {'background-color': '#f2f7f7 '}"
             >
                 <span>{{message.text}}</span>
                 <span ng-bind-html="trust(message.feedResponse.description)">
