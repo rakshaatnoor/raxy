@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 #message-pane {
     background: url(https://s3-ap-southeast-1.amazonaws.com/www.bebeautiful.in/ek-villain-shooting-vaadhoo-island-maldives.jpg);
     background-repeat: no-repeat;
@@ -9,10 +9,17 @@
 max-width: 75%;
 border-radius: 10px;
 padding: 10px;
+font-family: 'Pacifico', cursive;
 font-size: 18px;
+box-shadow: 2px;
+
 }
 .message-time{
 margin-top: 4px;
 color:#5a6861;
 font-size:10px;
+}
+
+#form-card{
+margin:0px;
 }
